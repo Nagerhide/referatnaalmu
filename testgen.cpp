@@ -15,7 +15,7 @@ int main(int argc, char * argv[]){
         int D = RNG() % 2000001;
         int E = RNG() % 2000001;
         int F = RNG() % 2000001;
-        int G = RNG() % 2000000+1;
+        long long G = RNG() % 2000000+1;
         while(P.count({A, {B, C}})){
             int A = RNG() % 2000001;
             int B = RNG() % 2000001;
@@ -27,6 +27,6 @@ int main(int argc, char * argv[]){
         D-=1000000;
         E-=1000000;
         F-=1000000;
-        cout << A << " " << B << " " << C << " " << D << " " << E << " " << F << " " << G << "\n";
+        cout << A << " " << B << " " << C << " " << D << " " << E << " " << F << " " << G*100000 << "\n";
     }
 }
