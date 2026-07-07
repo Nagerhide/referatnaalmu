@@ -1,4 +1,5 @@
 //https://doc.rust-lang.org/book/title-page.html
+//Rzutowanie typow....
 use std::io;
 
 const G: f64 = 6.67 * 1e-11;

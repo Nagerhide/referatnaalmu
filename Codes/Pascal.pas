@@ -2,7 +2,7 @@ program Pascal(input, output, stdErr);
 
 
 const
-	ITLIM: Int64 = 99999;
+	ITLIM: Int64 = 99999; (*Z jakiegos powodu kazda stala > 32768 musi byc w const*)
 var
 	VELX: array of Double;
 	VELY: array of Double;
